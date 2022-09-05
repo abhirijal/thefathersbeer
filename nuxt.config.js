@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'thefathersbeer',
+    title: 'The Fathers Brewing Co',
     htmlAttrs: {
       lang: 'en'
     },
