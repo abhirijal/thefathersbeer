@@ -27,7 +27,7 @@
       <div class="row mt-4">
         <div class="col-7">
       <div class="d-flex justify-content-end">
-        <video autoplay loop muted class="rounded-2 w-75">
+        <video autoplay loop muted class="rounded-4 w-75">
           <source src="/video/can-animation.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>

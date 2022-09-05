@@ -20,7 +20,9 @@
           <span style="font-size: .75rem;">© The Fathers Brewing Company Pty Ltd LIQP770017509 All Rights Reserved. ACN 641 491 876.</span>
         </div>
         <div>
-          <span style="font-size: .75rem;">Terms & Conditions</span>
+        <NuxtLink to="/terms-and-conditions">
+          <span style="font-size: .75rem; text-decoration: none;" class="text-dark">Terms & Conditions</span>
+        </NuxtLink>
         </div>
       </div>
     </div>
