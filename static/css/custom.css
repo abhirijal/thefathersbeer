@@ -7,10 +7,12 @@
 
 html {
     height: 100%;
+    max-width: 100%;
 }
 
 body {
     min-height: 100%;
+    max-width: 100%;
 }
 
 a:link {
@@ -23,6 +25,11 @@ a:link {
 
 .header-logo {
     max-width: 100px;
+    height: auto;
+}
+
+.header-logo-mobile {
+    max-width: 80px;
     height: auto;
 }
 
@@ -60,12 +67,13 @@ a:link {
 }
 
 .imdifferent {
-    max-width: 300px;
+    width: 300px;
     height: auto;
 }
 
 .homepagecan {
-    max-width: 400px;
+    width: 400px;
+    max-width: 90vw;
     height: auto;
 }
 
@@ -75,4 +83,13 @@ a:link {
 
 .bg-lightest-gray {
     background-color: var(--lightest-gray);
+}
+
+.mobile-header {
+    height: 80px;
+}
+
+.offcanvas.offcanvas-end {
+    width: 80vw;
+    max-width: 350px;
 }
