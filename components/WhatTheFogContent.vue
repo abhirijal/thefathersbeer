@@ -11,6 +11,15 @@
           <div class="mt-3">
               <img style="width: 300px;" src="/img/line.png" />
           </div>
+          <p class="font-daniel w-75 mx-auto fs-5 mb-4">
+          It all began in an apartment in Hunter’s Hill. When the creator of this beer one day woke up in his apartment and told his partner that he was going to make the perfect beer. He hustled hard brewing the beer in his tiny enclosed laundry working through nights and weekends. One night as he was doing so, he slept fell asleep on the job leaving the 30 litres of wrot boiling way beyond the intended time. It overflowed and created a thick fog around it waking him to wake up which made him think - ‘What the Fog?’ 
+        </p>
+        <p class="font-daniel w-75 mx-auto fs-5 mb-4">
+          The apartment was in a mess and stank. But the beer came out great. His partner, someone who strives for excellence in everything remarked - ‘I like it’. The beer brewing project moved from his laundry to the rooftop balcony. Four years of hustle through the nights and weekends to perfect the recipe and today we have it with us. 
+        </p>
+        <p class="font-daniel w-75 mx-auto fs-5">
+          FOG FATHER. The best wheat beer that any cellar in Sydney can offer. 
+          </p>
           <div class="font-cj fs-3 mt-4" style="text-decoration: underline;">huh? whatchu mean -></div>
         </div>
       </div>
@@ -47,7 +56,7 @@
   </div>
     </div>
     </div>
-    <div>
+    <!-- <div>
       <div class="py-5 container-xl text-center">
         <h3 class="font-daniel mb-4">What the fog?</h3>
         <p class="font-daniel w-75 mx-auto fs-5 mb-4">
@@ -60,7 +69,7 @@
           FOG FATHER. The best wheat beer that any cellar in Sydney can offer. 
           </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

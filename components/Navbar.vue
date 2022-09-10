@@ -30,6 +30,11 @@
         <span class="font-cj navitems">WHERE’S THE FOG?</span>
         </NuxtLink>
       </div>
+        <div class="custom-nav-items align-items-center">
+        <NuxtLink class="menu-item-border pb-2" to="#">
+        <span class="font-cj navitems">SHOP</span>
+        </NuxtLink>
+      </div>
       <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="/contact">
         <span class="font-cj navitems">CONTACT</span>
