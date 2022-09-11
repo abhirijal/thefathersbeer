@@ -8,36 +8,38 @@
       <div class="d-flex justify-content-end nav-gap">
       <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="/">
-            <span class="font-cj navitems">Home</span>
+            <span class="font-cj navitems fs-2">Home</span>
         </NuxtLink>
       </div>
       <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="/what-the-fog">
-        <span class="font-cj navitems">WHAT THE FOG?</span>
+        <span class="font-cj navitems fs-2">WHAT THE FOG?</span>
         </NuxtLink>
       </div>
       </div>
       </div>
-      <div class="border-bottom border-5 border-blue">
-        <NuxtLink to="/">
-          <img class="header-logo mb-2" src="/img/logo.png" alt="">
-       </NuxtLink>
+      <div>
+        <div class="border-bottom border-5 border-blue">
+          <NuxtLink to="/">
+            <img class="header-logo mb-2" src="/img/logo.png" alt="">
+          </NuxtLink>
+        </div>
       </div>
       <div class="w-25">
       <div class="d-flex justify-content-start nav-gap">
         <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="/wheres-the-fog">
-        <span class="font-cj navitems">WHERE’S THE FOG?</span>
+        <span class="font-cj navitems fs-2">WHERE’S THE FOG?</span>
         </NuxtLink>
       </div>
-        <div class="custom-nav-items align-items-center">
+        <!-- <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="#">
         <span class="font-cj navitems">SHOP</span>
         </NuxtLink>
-      </div>
+      </div> -->
       <div class="custom-nav-items align-items-center">
         <NuxtLink class="menu-item-border pb-2" to="/contact">
-        <span class="font-cj navitems">CONTACT</span>
+        <span class="font-cj navitems fs-2">CONTACT</span>
         </NuxtLink>
       </div>
       </div>
@@ -76,17 +78,13 @@
   <div class="offcanvas-body custom-nav-items">
     <hr class="mb-1">
     <div>
-      <NuxtLink class="menu-item-border pb-2" to="/"
-      event=""
-      @click.native="closeOffcanvas('/')">
+      <NuxtLink class="menu-item-border pb-2" to="/">
             <span class="font-cj navitems">Home</span>
         </NuxtLink>
     </div>
     <hr class="mt-3 mb-1">
     <div>
-      <NuxtLink class="menu-item-border pb-2" to="/what-the-fog"
-      event=""
-      @click.native="closeOffcanvas('/what-the-fog')">
+      <NuxtLink class="menu-item-border pb-2" to="/what-the-fog">
         <span class="font-cj navitems">WHAT THE FOG?</span>
         </NuxtLink>
     </div>
@@ -109,14 +107,6 @@
 
 <script>
 export default {
-  name: 'Navbar',
-  methods: {
-    closeOffcanvas(path) {
-      var bsOffcanvas = new bootstrap.Offcanvas(this.$refs.menuOffcanvas);
-      bsOffcanvas.hide();
-
-      this.$router.push({ path, query });
-    }
-  }
+  name: 'Navbar'
 }
 </script>

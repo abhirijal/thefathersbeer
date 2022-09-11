@@ -7,6 +7,6 @@ import WhatTheFog from '~/components/WhatTheFog.vue';
 import WheresTheFog from '~/components/WheresTheFog.vue';
 export default {
     name: "wheres-the-fog",
-    components: { WhatTheFog, WheresTheFog }
+    components: { WhatTheFog, WheresTheFog },
 }
 </script>

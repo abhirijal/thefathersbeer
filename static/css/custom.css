@@ -24,7 +24,7 @@ a:link {
 }
 
 .header-logo {
-    max-width: 100px;
+    max-width: 140px;
     height: auto;
 }
 
@@ -68,11 +68,13 @@ a:link {
 
 .imdifferent {
     width: 300px;
+    max-width: 90vw;
     height: auto;
 }
 
 .homepagecan {
-    max-width: 500px;
+    width: 450px;
+    max-width: 90vw;
     height: auto;
 }
 

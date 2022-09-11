@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="container-xl py-5 homepage-yellow">
-      <div class="w-25 mx-auto">
+      <div class="mx-auto" style="width: 90vw; max-width: 400px">
         <h3 class="font-daniel text-center mb-4">Contact Us</h3>
         <form class="font-tg">
   <div class="mb-3">
