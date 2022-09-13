@@ -2,12 +2,12 @@
 <template>
   <div>
     <div>
+      <div class="text-center mt-4">
+        <span class="font-daniel fs-3 text">nurtured in hunters hill</span>
+      </div>
       <div class="pb-4 mt-4">
         <div class="text-center">
         <img class="homepagecan" src="/img/homepage-can.png" />
-      </div>
-      <div class="text-center mt-4">
-        <span class="font-daniel fs-3 text">nurtured in hunter,s hill</span>
       </div>
       <div class="text-center py-4">
         <img class="imdifferent" src="/img/imdifferent.png" />
